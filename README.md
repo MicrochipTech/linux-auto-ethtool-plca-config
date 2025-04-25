@@ -18,16 +18,16 @@ Currently Linux doesn't have the PLCA settings stored for the network devices. E
 ## How to use
 - Clone or download the package,
 ```
-    $ git clone https://github.com/MicrochipTech/linux-auto-ethtool-plca-config.git
+    git clone https://github.com/MicrochipTech/linux-auto-ethtool-plca-config.git
 ```
 - Go to the **linux-plca-configurator-tool** directory,
 ```
-    $ cd linux-plca-configurator-tool/
+    cd linux-plca-configurator-tool/
 ```
 - Run the below commands,
 ```
-    $ chmod +x plca_configurator_tui.sh
-    $ ./plca_configurator_tui.sh
+    chmod +x plca_configurator_tui.sh
+    ./plca_configurator_tui.sh
 ```
 - As the tool is based on the **dialog package**, it will ask for your permission to install the package if it is not installed. You can provide "**Yes**" if you want the tool to install the package automatically before starting the application.
 - A **terminal user interface (tui)** will appear with the below options,
