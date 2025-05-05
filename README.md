@@ -14,6 +14,7 @@ Currently Linux doesn't have the PLCA settings stored for the network devices. E
 
 - Raspberry Pi 4 with Linux kernel v6.6.51, ethtool v6.11
 - x64, Ubuntu 24.4.2 LTS with Linux Kernel V6.11.0
+- x64, Ubuntu 22.04 LTS with Linux Kernel V6.8.0
 
 ## How to use
 - Clone or download the package,
@@ -31,6 +32,7 @@ Currently Linux doesn't have the PLCA settings stored for the network devices. E
 ```
 - As the tool is based on the **dialog package**, it will ask for your permission to install the package if it is not installed. You can provide "**Yes**" if you want the tool to install the package automatically before starting the application.
 - A **terminal user interface (tui)** will appear with the below options,
+    - MAC Address (Ex: 11:22:33:44:55:66)
     - Interface Name (Ex: eth1)
     - PLCA Mode (on/off)
     - PLCA Node ID (0-254)
