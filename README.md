@@ -21,9 +21,9 @@ Currently Linux doesn't have the PLCA settings stored for the network devices. E
 ```
     git clone https://github.com/MicrochipTech/linux-auto-ethtool-plca-config.git
 ```
-- Go to the **linux-plca-configurator-tool** directory,
+- Go to the **linux-auto-ethtool-plca-config** directory,
 ```
-    cd linux-plca-configurator-tool/
+    cd linux-auto-ethtool-plca-config/
 ```
 - Run the below commands,
 ```
